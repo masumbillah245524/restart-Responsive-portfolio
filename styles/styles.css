@@ -155,3 +155,36 @@ padding: 20px 0;
         gap: 1.5rem;
     }
 }
+/*Facts Section */
+.facts-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.facts-part{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px 30px;
+}
+.facts-part >h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #424242;
+    margin: 10px 0;
+}
+.facts-part >p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #424242;
+}
+/*Sponsors Part*/
+.sponsors-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.sponsors-container img{
+    width: 150px;
+height: 40px;
+}
